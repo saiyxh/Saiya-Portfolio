@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portraits by Saiya</title>
+  <style>
+     header {
+      text-align: right;
+      padding: 1rem;
+      background-color: #ffffff;
+      color: #222;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0rem;
+      background-color: #f8f8f8;
+      color: #111;
+    }
+
+    .section {
+      margin-bottom: 20px;
+    }
+
+    .section img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .row {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .row .half {
+      flex: 1 1 48%;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .footer h2 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .footer p {
+      font-size: 16px;
+      max-width: 600px;
+      margin: 0 auto;
+      color: #444;
+    }
+
+    @media (max-width: 600px) {
+      .row {
+        flex-direction: column;
+      }
+
+      .row .half {
+        flex: 1 1 100%;
+      }
+    }
+    .back-button {
+     padding: 10px 15px;
+     font-size: 2rem;
+     cursor: pointer;
+     background-color: #222;
+     border: none;
+     border-radius: 5px;
+     margin-bottom: 20px;
+    }
+    .contact-links{
+      text-align: center;
+    }
+    .footer-text{
+      text-align: center;
+    }
+  </style>
+
+   <div style="margin-bottom: 0px;">
+
+</div>
+
+   <!-- Foreground content -->
+     
+  <header style="color: #222; text-align: right;">
+    
+  <div class="top-bar">
+  <div class="button-row">
+    <button onclick="history.back()">← Back</button>
+    <a href="saiyasda.html" class="home-button">🏠 Home</a>
+  </div>
+  <h1 class="title">UNVEIL VOL. I</h1>
+</div>
+
+<div style="text-align: center; margin-top: 0rem;">
+  <nav>
+    <a href="GraphicDesign.html" style="margin: 0 1rem; color: #222; text-decoration: none; font-weight: bold;">Graphic Design</a>
+        <a href="AboutSaiya.html" style="margin: 0 1rem; color: #222; text-decoration: none; font-weight: bold;">About me</a>
+  </nav>
+</div>
+
+<style>
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 0 20px;
+  }
+
+  .button-row {
+    display: flex;
+    gap: 10px;
+  }
+
+  .button-row button,
+  .home-button {
+    padding: 10px 15px;
+    background-color: #f7f7f8;
+    color: #222;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .home-button:hover,
+  .button-row button:hover {
+    background-color: #0056b3;
+  }
+
+  .title {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    white-space: nowrap;
+  }
+</style>
+
+
+    <!-- Header Section -->
+    <div class="header">
+      <h1 style="text-align: center; font-size: 5rem; margin-top: 2rem; margin-bottom: 0%;">Portraits</h1>
+      <p class="section-title" style="text-align: center; font-size: 2rem; margin-bottom: 2rem; margin-top: 0">This is where I started as an artist</p>
+    </div>
+</head>
+<body>
+    <!-- Giveaway Section with images side by side -->
+    <div class="section row">
+      <div class="half">
+        <img src="JAKE2.png" alt="JAKE" />
+      </div>
+      <div class="half">
+        <img src="SAIYAH.png" alt="JAKE" />
+      </div>
+            <div class="half">
+        <img src="JAKE.png" alt="SAIYA" />
+      </div>
+            <div class="half">
+        <img src="HYUNJIN.png" alt="HYUNJIN" />
+      </div>
+       <!-- Background layer -->
+    <div style="
+        background: url('websitebg.png') no-repeat center center fixed;
+       background-size: cover;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+       height: 100%;
+       z-index: -1;">
+    </div>
+    
+    </div>
+
+    
+
+    <!-- Footer Section -->
+  <footer>
+     <div class="contact-links">
+            <a href="mailto:saiyadesigns@gmail.com">saiyadesigns@gmail.com</a>
+            <a href="https://www.behance.net/josiahmerejilla" target="_blank">Behance</a>
+            <a href="https://www.linkedin.com/in/josiahmerejilla/" target="_blank">LinkedIn</a>
+        </div>
+    <p class="footer-text">&copy; 2025 Saiya Designs. All rights reserved.</p>
+  </footer>
+</body>
+</html>
